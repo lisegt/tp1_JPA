@@ -64,7 +64,7 @@ public class CountryRepositoryTest {
 
         //on teste la population en Italie
         PopulationPays populationItalie = populationPays.get(3); //Italie : 4e pays de la table
-        assertEquals(19, populationItalie.getPopulation(), "On doit trouver une population de 18");
+        assertEquals(19, populationItalie.getPopulation(), "On doit trouver une population de 19");
     }
 
 }
